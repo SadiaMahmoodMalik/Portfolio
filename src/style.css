@@ -1,0 +1,71 @@
+:root {
+    --background-color: blueviolet;
+    --display: flex;
+    --center: center;
+    --font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#nav-bar {
+    display: var(--display);
+    justify-content: space-evenly;
+    background-color: rgb(53, 22, 88);
+}
+
+#nav-bar a {
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+#nav-bar a:hover {
+    color: whitesmoke;
+}
+
+#projects {
+    display: var(--display);
+    justify-content: var(--center);
+    background-color: var(--background-color);
+}
+
+#projects span {
+    flex: 1;
+    text-align: var(--center);
+    color: white;
+    font-family: var(--font-family);
+}
+
+#contact-me {
+    display: var(--display);
+    justify-content: var(--center);
+    background-color: var(--background-color);
+    color: white;
+    text-align: var(--center);
+}
+
+#contact-me a {
+    flex: 1;
+    text-align: var(--center);
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+#about-me {
+    display: var(--display);
+    justify-content: var(--center);
+    background-color: var(--background-color);
+    color: white;
+    text-align: var(--center);
+    font-family: var(--font-family);
+}
+
+#welcome {
+    display: var(--display);
+    justify-content: var(--center);
+    background-color: var(--background-color);
+    color: white;
+    text-align: var(--center);
+    flex-direction: column;
+    font-family: var(--font-family);
+}
